@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>點圖前往 Google Maps</title>
+  <style>
+    body {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 20px;
+      background-color: #fafafa;
+      font-family: sans-serif;
+    }
+    img {
+      width: 80%;
+      max-width: 600px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,.2);
+      transition: .2s;
+    }
+    img:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+
+<h2>📍 點擊圖片前往 Google Map</h2>
+
+<a href="https://www.google.com/maps/place/%E6%9D%B1%E5%90%B3%E5%A4%A7%E5%AD%B8/@25.0950355,121.5455935,16.97z/data=!4m6!3m5!1s0x3442ac228f70340d:0x9a0072f960485c6f!8m2!3d25.0945636!4d121.5454248!16zL20vMDJ3NHM0?authuser=0&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
+   target="_blank">
+    <!-- 🔻 把 this.jpg 換成你的圖檔名稱或網址 -->
+    <img src="map.jpg">
+</a>
+
+</body>
+</html>
